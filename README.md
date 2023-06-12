@@ -1,2 +1,10 @@
 # indesign-scripting-fail
 Public documentation of items that aren't in the InDesign scripting DOM
+
+## app.generalPreferences.objectsMoveWithPage
+The documentation states that this setting only affects page objects when the page is moved via the UI. InDeed, this setting will select/deselect the option in the InDesign Control Panel, but it has no affect on page items if a page is moved via scripting. No known workarounds. Documented 2023-06-12, InDesign vs. 18.3
+
+## Hyperlink Alt Text
+As of 2023-06-12, InDesign vs. 18.3, the `Alt Text` field cannot be scripted:
+
+<img width="565" alt="image" src="https://github.com/gilbertconsult/indesign-scripting-fail/assets/10133752/d596b430-4c17-470c-883c-b93719e9db13">
