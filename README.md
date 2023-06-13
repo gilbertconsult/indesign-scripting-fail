@@ -14,20 +14,20 @@ As of 2023-06-13, InDesign vs. 18.3 (also earlier), this command cannot be scrip
 
 ## Various Preferences
 
-### Preferences > User Interface Scaling
+Preferences > User Interface Scaling
 
-### Preferences > Type > Enable In-Menu Font Previews
+Preferences > Type > Enable In-Menu Font Previews
 
-### Preferences > Type > Number of Recent Fonts
+Preferences > Type > Number of Recent Fonts
 
-### Preferences > Type >  Enable Japanese font preview in "find more"
+Preferences > Type >  Enable Japanese font preview in "find more"
 
-### Preferences > Type > Sort recent fonts list alphabetically
+Preferences > Type > Sort recent fonts list alphabetically
 
-### Preferences > Type > Preview fonts on hover
+Preferences > Type > Preview fonts on hover
 
-### Preferences > Dictionary > Duden Dictionary > Show Hyphenation Options
+Preferences > Dictionary > Duden Dictionary > Show Hyphenation Options
 
-### Preferences > File Handling > Default Relink Folder
+Preferences > File Handling > Default Relink Folder
 
-### Preferences > File Handling > Hide New Layers When Updating or Relinking
+Preferences > File Handling > Hide New Layers When Updating or Relinking
