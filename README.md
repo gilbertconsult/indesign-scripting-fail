@@ -31,3 +31,5 @@ Preferences > Dictionary > Duden Dictionary > Show Hyphenation Options
 Preferences > File Handling > Default Relink Folder
 
 Preferences > File Handling > Hide New Layers When Updating or Relinking
+
+Preferences > Clipboard Handling > Show Auto Style
