@@ -33,3 +33,17 @@ Preferences > File Handling > Default Relink Folder
 Preferences > File Handling > Hide New Layers When Updating or Relinking
 
 Preferences > Clipboard Handling > Show Auto Style Option
+
+## Various View settings
+
+View > Extras > Show Text Threads
+
+View > Extras > Show Assigned Frames
+
+View > Extras > Show Hyperlinks
+
+View > Extras > Show Link Badge
+
+Structure Panel Menu > Show Comments
+
+Structure Panel Menu > Show Processing Instructions
