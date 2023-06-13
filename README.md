@@ -12,20 +12,22 @@ As of 2023-06-12, InDesign vs. 18.3 (also earlier), the `Alt Text` field cannot 
 ## Type > Find/Replace Font
 As of 2023-06-13, InDesign vs. 18.3 (also earlier), this command cannot be scripted. Possible workarounds involve scripting Find/Change routines to look for a specific font, or other scripting methods. But none of these workarounds work precisely the same what the Type > Find/Replace Font works.
 
-## Preferences > User Interface Scaling
+## Various Preferences
 
-## Preferences > Type > Enable In-Menu Font Previews
+### Preferences > User Interface Scaling
 
-## Preferences > Type > Number of Recent Fonts
+### Preferences > Type > Enable In-Menu Font Previews
 
-## Preferences > Type >  Enable Japanese font preview in "find more"
+### Preferences > Type > Number of Recent Fonts
 
-## Preferences > Type > Sort recent fonts list alphabetically
+### Preferences > Type >  Enable Japanese font preview in "find more"
 
-## Preferences > Type > Preview fonts on hover
+### Preferences > Type > Sort recent fonts list alphabetically
 
-## Preferences > Dictionary > Duden Dictionary > Show Hyphenation Options
+### Preferences > Type > Preview fonts on hover
 
-## Preferences > File Handling > Default Relink Folder
+### Preferences > Dictionary > Duden Dictionary > Show Hyphenation Options
 
-## Preferences > File Handling > Hide New Layers When Updating or Relinking
+### Preferences > File Handling > Default Relink Folder
+
+### Preferences > File Handling > Hide New Layers When Updating or Relinking
