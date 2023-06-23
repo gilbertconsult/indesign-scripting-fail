@@ -47,3 +47,11 @@ View > Extras > Show Link Badge
 Structure Panel Menu > Show Comments
 
 Structure Panel Menu > Show Processing Instructions
+
+## Table of Contents options
+
+![TOC options](image.png)
+
+Make text anchors in source paragraph does not have any equivalent binding in DOM. Calling Document.createTOC() will ignore this setting even if it is set in the TOC style.
+
+Remove Forced Line Break -> same as above
