@@ -7,6 +7,9 @@ None of the Share For Review functionality is present in the DOM, not even the a
 ## Text To Image (Beta)
 None of this functionality is in the DOM as far as I know.
 
+## Adobe InDesign Component Information
+The information in the dialog that appears when you press Command+Shift+About Indesign (most importantly, the Document History) is not in the DOM.
+
 ## app.generalPreferences.objectsMoveWithPage
 The documentation states that this setting only affects page objects when the page is moved via the UI. InDeed, this setting will select/deselect the option in the InDesign Control Panel, but it has no affect on page items if a page is moved via scripting. No known workarounds. Documented 2023-06-12, InDesign vs. 18.3
 
