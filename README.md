@@ -1,6 +1,12 @@
 # indesign-scripting-fail
 Public documentation of items that aren't in the InDesign scripting DOM
 
+## Share For Review
+None of the Share For Review functionality is present in the DOM, not even the ability to check for the presence of an Share For Review comments in the document.
+
+## Text To Image (Beta)
+None of this functionality is in the DOM as far as I know.
+
 ## app.generalPreferences.objectsMoveWithPage
 The documentation states that this setting only affects page objects when the page is moved via the UI. InDeed, this setting will select/deselect the option in the InDesign Control Panel, but it has no affect on page items if a page is moved via scripting. No known workarounds. Documented 2023-06-12, InDesign vs. 18.3
 
