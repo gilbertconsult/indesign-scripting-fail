@@ -1,5 +1,5 @@
 # indesign-scripting-fail
-Public documentation of items that aren't in the InDesign scripting DOM
+Public documentation of items that missing, incomplete, or don't work properly in the InDesign scripting DOM
 
 ## Share For Review
 None of the Share For Review functionality is present in the DOM, not even the ability to check for the presence of an Share For Review comments in the document.
