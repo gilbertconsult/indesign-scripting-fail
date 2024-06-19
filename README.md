@@ -30,7 +30,7 @@ As of 2023-06-12, InDesign vs. 18.3 (also earlier), the `Alt Text` field cannot 
 ## Type > Find/Replace Font
 As of 2023-06-13, InDesign vs. 18.3 (also earlier), this command cannot be scripted. Possible workarounds involve scripting Find/Change routines to look for a specific font, or other scripting methods. But none of these workarounds work precisely the same what the Type > Find/Replace Font works.
 
-## Various Preferences
+## Various Preferences missing from the DOM
 
 Preferences > User Interface Scaling
 
@@ -52,7 +52,7 @@ Preferences > File Handling > Hide New Layers When Updating or Relinking
 
 Preferences > Clipboard Handling > Show Auto Style Option
 
-## Various View settings
+## Various View settings missing from the DOM
 
 View > Extras > Show Text Threads
 
@@ -70,6 +70,6 @@ Structure Panel Menu > Show Processing Instructions
 
 ![TOC options](image.png)
 
-Make text anchors in source paragraph does not have any equivalent binding in DOM. Calling Document.createTOC() will ignore this setting even if it is set in the TOC style.
+Make text anchors in source paragraph does not have any equivalent binding in the DOM. Calling Document.createTOC() will ignore this setting even if it is set in the TOC style.
 
 Remove Forced Line Break -> same as above
