@@ -16,6 +16,12 @@ The information in the dialog that appears when you press Command+Shift+About In
 ## app.generalPreferences.objectsMoveWithPage
 The documentation states that this setting only affects page objects when the page is moved via the UI. InDeed, this setting will select/deselect the option in the InDesign Control Panel, but it has no affect on page items if a page is moved via scripting. No known workarounds. Documented 2023-06-12, InDesign vs. 18.3
 
+## textWrapPreferences.textWrapOffset
+The documentation says: 
+>The format for defining text wrap offset values depends on the text wrap type. If text wrap type is jump object text wrap, specify 2 values in the format [top, bottom]. If text wrap type is next column text wrap or contour, specify a single value. For bounding box text wrap, specify 4 values in the format in the format [top, left, bottom, right].
+
+However if text wrap type is jump object, you still need to specify 4 values in the format in the format [top, left, bottom, right].
+
 ## Hyperlink Alt Text
 As of 2023-06-12, InDesign vs. 18.3 (also earlier), the `Alt Text` field cannot be scripted:
 
