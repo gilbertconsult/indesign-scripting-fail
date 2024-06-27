@@ -73,3 +73,8 @@ Structure Panel Menu > Show Processing Instructions
 Make text anchors in source paragraph does not have any equivalent binding in the DOM. Calling Document.createTOC() will ignore this setting even if it is set in the TOC style.
 
 Remove Forced Line Break -> same as above
+
+## document.recompose()
+
+This Method doesn't ever seem to do anything. Possible workaround: `app.menuActions.itemByName("$ID/Recompose all stories immediately").invoke();`
+
