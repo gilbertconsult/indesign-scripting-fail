@@ -70,7 +70,7 @@ Structure Panel Menu > Show Processing Instructions
 
 ![TOC options](image.png)
 
-Make text anchors in source paragraph does not have any equivalent binding in the DOM. Calling Document.createTOC() will ignore this setting even if it is set in the TOC style.
+Make text anchors in source paragraph does not have any equivalent binding in the DOM. Calling `Document.createTOC()` will ignore this setting even if it is set in the TOC style.
 
 Remove Forced Line Break -> same as above
 
@@ -78,3 +78,6 @@ Remove Forced Line Break -> same as above
 
 This Method doesn't ever seem to do anything. Possible workaround: `app.menuActions.itemByName("$ID/Recompose all stories immediately").invoke();`
 
+## XML processing
+
+`evaluateXPathExpression` doesn't work properly for most expressions if the XML being processed contains attributes with a colon in the name, such as 'aid:pstyle'
