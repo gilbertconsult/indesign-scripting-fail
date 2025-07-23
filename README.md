@@ -1,5 +1,5 @@
 # indesign-scripting-fail
-Public documentation of items that are missing, incomplete, or don't work properly in the InDesign scripting DOM
+Public documentation of items that are missing, incomplete, or don't work properly in the InDesign ExtendScript scripting DOM
 
 ## EPub export
 **book.epubExportPreferences.epubCreatePageNavigation = false** does indeed seem to set the property to false, but it has no effect on the output. The aria page navigation tags are still included in the EPUB output.
