@@ -1,6 +1,9 @@
 # indesign-scripting-fail
 Public documentation of items that are missing, incomplete, or don't work properly in the InDesign ExtendScript scripting DOM
 
+## StrokeWeight
+`myRectangle.strokeWeight = 0` actually sets the stroke weight to 1pt. Repeating the command a second time sets it to zero. Reported to UserVoice.
+
 ## EPub export
 **book.epubExportPreferences.epubCreatePageNavigation = false** does indeed seem to set the property to false, but it has no effect on the output. The aria page navigation tags are still included in the EPUB output.
 
