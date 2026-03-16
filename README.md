@@ -1,6 +1,9 @@
 # indesign-scripting-fail
 Public documentation of items that are missing, incomplete, or don't work properly in the InDesign ExtendScript scripting DOM
 
+## Adding content to Assignments
+There doesn't appear to be any way to add text frames or other content to an assignment via scripting. If I'm wrong on this, please let me know!
+
 ## StrokeWeight
 `myRectangle.strokeWeight = 0` actually sets the stroke weight to 1pt. Repeating the command a second time sets it to zero. Reported to UserVoice.
 
