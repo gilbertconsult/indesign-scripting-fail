@@ -29,7 +29,7 @@ The documentation says:
 However if text wrap type is jump object, you still need to specify 4 values in the format in the format [top, left, bottom, right].
 
 ## Hyperlink Alt Text
-As of 2023-06-12, InDesign vs. 18.3 (also earlier), the `Alt Text` field cannot be scripted:
+As of 2023-06-12, InDesign vs. 18.3 (also earlier), the `Alt Text` field cannot be scripted. UPDATE as of ID vs. 21.5, a new property Hyperlink.hypherlinkAltText has been added. (Note the misspelling of hyperlink as "hypherlink").
 
 <img width="565" alt="image" src="https://github.com/gilbertconsult/indesign-scripting-fail/assets/10133752/d596b430-4c17-470c-883c-b93719e9db13">
 
